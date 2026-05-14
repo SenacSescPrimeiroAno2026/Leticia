@@ -1,0 +1,46 @@
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: blanchedalmond;
+}
+h1{
+    background-color: aqua;
+}
+.texto_h1{
+    color: red;
+}
+
+p{
+    font: size 40px;;
+}
+
+.p1{
+    color: blueviolet;
+}
+
+.p2{
+    color:chartreuse;
+}
+.t1{
+    font-size: 50px;
+}
+.div2{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+
+}
+#id_div1{
+    background-color: gold;
+    color: red;
+}
+
+.botão{
+    background-color: cyan;
+    color:beige;
+    width: 400px;
+    height: 60px;
+    border-radius: 22px;
+    border: 1px dashed black;
+    font-size: 30px;
+}

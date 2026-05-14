@@ -1,0 +1,27 @@
+body{
+background-color: #ADD8E6	;
+ font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+.h1{
+    text-align: center;
+    background-color:#87CEEB ;
+}
+.caixa {
+      border: 3px solid blue;
+      padding: 10px;
+      width: 200px;
+}
+
+.seção{
+
+}
+
+.hero-content{
+    background-color: #ADD8E6;
+
+}

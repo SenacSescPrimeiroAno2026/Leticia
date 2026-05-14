@@ -1,0 +1,29 @@
+body{
+    background-color: antiquewhite;
+    color: black;
+}
+
+ol{
+    color: brown;
+}
+
+ul{
+    color: chocolate;
+}
+
+d1{
+    color: gold;
+}
+
+li{
+    font-size: 32px;
+}
+
+.div1{
+    background-color: aquamarine;
+    display: inline;
+}
+.div_pai{
+    background-color: brown;
+    
+}

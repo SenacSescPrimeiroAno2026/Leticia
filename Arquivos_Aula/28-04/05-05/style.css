@@ -1,0 +1,40 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    margin: 0%;
+    padding: 0%;
+}
+
+h1,h2{
+    text-align: center;
+    background-color: cadetblue;
+}
+*titulo-principal{
+     font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    margin: 0%;
+    padding: 0%;
+}
+}
+.seção{
+    background-color: beige;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.item{
+    margin-bottom: 10px;
+}
+p,li{
+    font-size: 16px;
+    line-height: 1,5;
+}
+.destaque{
+    color: aquamarine;
+    font-weight: bold;
+}
+#recomendação{
+    background-color: beige;
+    border-left: 5px solid cadetblue;
+}
