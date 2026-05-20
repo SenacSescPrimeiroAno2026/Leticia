@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Guia de Turismo da Cidade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+        <h1>Guia de Turismo da Cidade</h1>
+        <p>Descubra os melhores lugares para visitar em Santa Cruz do Sul !</p>
+
+        <a href="#pontos">
+            <button class="botao">Ver locais</button>
+        </a>
+    </header>
+
+    <!-- Menu -->
+    <nav class="menu">
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#pontos">Pontos turísticos</a></li>
+            <li><a href="#roteiro">Roteiro</a></li>
+            <li><a href="#sugestao">Sugestão</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sobre -->
+    <section id="sobre" class="secao">
+        <h2>Sobre o Guia</h2>
+        <p>Este site apresenta pontos turísticos e roteiros da cidade.</p>
+
+        <ul>
+            <li>Mostrar locais turísticos</li>
+            <li>Organizar passeios</li>
+            <li>Valorizar cultura local</li>
+            <li>Facilitar informações</li>
+        </ul>
+    </section>
+
+    <!-- Pontos turísticos -->
+    <section id="pontos" class="secao">
+        <h2>Pontos Turísticos</h2>
+
+        <div class="card">
+            <h3>Catedral</h3>
+            <p>Igreja</p>
+            <p><strong>Tipo:</strong> Cultural</p>
+        </div>
+
+        <div class="card">
+            <h3>Museu Municipal</h3>
+            <p>História da cidade em exposição.</p>
+            <p><strong>Tipo:</strong> Histórico</p>
+        </div>
+
+        <div class="card">
+            <h3>Ocktoberfest</h3>
+            <p>festa Ocktoberfest</p>
+            <p><strong>Tipo:</strong>festa</p>
+        </div>
+    </section>
+
+    <section id="roteiro" class="secao">
+        <h2>Roteiro de Visita</h2>
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    table {
+      border-collapse:collapse
+      width: 300px;
+    }
+
+    table, th, td {
+      border: 1px solid black; 
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>horário</th>
+    <th>local</th>
+    <th>atividade</th>
+    <th>tempo estimado</th>
+  </tr>
+  <tr>
+    <td>13:00</td>
+    <td>Catedral</td>
+    <td>Passeio</td>
+    <td>2h</td>
+  </tr>
+  <tr>
+    <td>15:00</td>
+    <td>Praça Getulio Vargas </td>
+    <td>Caminha turistica</td>
+    <td>1h</td>
+  </tr>
+  <tr>
+    <td>16:00</td>
+    <td>Ocktoberfest</td>
+    <td>Visita</td>
+    <td>1h</td>
+
+  </tr>
+  <tr>
+    <td>17:00</td>
+    <td>Gruta</td>
+    <td>Caminha Natureza</td>
+    <td>3h</td>
+  </tr>
+</table>
+
+</body>
+</html>
+    
+  </tr>
+</table>
+               
+              
+                 
+    
+    </section>
+
+    <!-- Formulário -->
+    <section id="sugestao" class="secao">
+        <h2>Sugestão de Local</h2>
+
+        <form onsubmit="enviar(event)">
+
+            <label>Nome:</label>
+            <input type="text" required>
+
+            <label>E-mail:</label>
+            <input type="email" required>
+
+            <label>Nome do local:</label>
+            <input type="text" required>
+
+            <label>Tipo:</label>
+            <select>
+                <option>Cultural</option>
+                <option>Natural</option>
+                <option>Histórico</option>
+                <option>Gastronômico</option>
+                <option>Outro</option>
+            </select>
+
+            <label>Descrição:</label>
+            <textarea rows="4"></textarea>
+
+            <button class="botao" type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <p>Turma do 1º ano — 2026</p>
+    </footer>
+
+    <script>
+        function enviar(event) {
+            event.preventDefault();
+            alert("Sugestão enviada com sucesso!");
+        }
+    </script>
+
+</body>
+</html>
