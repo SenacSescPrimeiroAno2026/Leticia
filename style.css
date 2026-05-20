@@ -80,9 +80,12 @@ footer {
 }
 .sobre{
       background-color: rgb(206, 119, 158);
-      color: white;
-      padding: 20px;
+      color: pink;
+      padding: 60px;
       text-align: center;
     }
-
+  .botao {
+    background-color:rgb(206, 119, 158)
+  }
+    
 
