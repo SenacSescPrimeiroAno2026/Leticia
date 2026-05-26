@@ -1,0 +1,30 @@
+body{
+    background-color:	#87CEFA;
+}
+.h1{
+    background-color:wheat;
+    color: antiquewhite;
+}
+ table {
+            width: 60%;
+            border-collapse: collapse; /* Remove espaços entre bordas */
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid #f2f2f2;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color;#f /* Fundo do cabeçalho */
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9; /* Linhas alternadas */
+        }
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    
+
