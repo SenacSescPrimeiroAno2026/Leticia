@@ -17,10 +17,10 @@ body{
             text-align: center;
         }
         th {
-            background-color;#f /* Fundo do cabeçalho */
+            background-color; /* Fundo do cabeçalho */
         }
         tr:nth-child(even) {
-            background-color: #f9f9f9; /* Linhas alternadas */
+            background-color: floralwhite; /* Linhas alternadas */
         }
         caption {
             font-weight: bold;
