@@ -110,22 +110,36 @@
       <label for="turma">Turma</label>
       <input type="text" id="turma" name="turma" required>
       <br><br>
+
       <label for="participacao">Tipo de Participação</label>
       <select id="participacao" name="participacao" required>
         <option value="">Selecione</option>
-        <option value="presencial">Montar projetos</option>
-        <option value="ouvinte">Oficina de  html e css</option>
-        <option value="palestrante">Apresentação de projetos</option>
+        <option value="Visitante">Visitante</option>
+        <option value="Apresentador do projeto">Apresentador do projeto</option>
+        <option value="Participante da oficina">Participante da oficina </option>
+        <option value="Organizador">Organizador</option>
+
       </select>
+
       <br><br>
       <label for="observacoes">Observações</label>
       <textarea id="observacoes" name="observacoes"></textarea>
-      <br><br>
+      <br>
     </form>
 
-<button onclick="enviar()">
-  Enviar
-</button>
+    <div>
+
+        <br><br>
+        <button class="botão" onclick="alert
+        ('enviado com sucesso')">enviar</button>
+        <br><br>
+    
+    </div>
+    </div>
+
+    <footer>
+  <p>Desenvolvido pela turma do 1 ano do ensino médio Sesc - 2026.</p>
+</footer>
 
 </body>
 </html>
